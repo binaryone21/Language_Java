@@ -7,7 +7,7 @@ import java.io.IOException;
 public class _07_FileOutputStreamTest3 {
     public static void main(String[] args) throws FileNotFoundException {
         String path = "src/seunghee/study/Do_It_자바_프로그래밍_입문/_15_자바_입출력/_03_바이트_단위_스트림/";
-        FileOutputStream fos = new FileOutputStream(path + "output07.txt");
+        FileOutputStream fos = new FileOutputStream(path + "_07_output.txt");
         try(fos) {
             byte[] bs = new byte[26];
             byte data = 65;

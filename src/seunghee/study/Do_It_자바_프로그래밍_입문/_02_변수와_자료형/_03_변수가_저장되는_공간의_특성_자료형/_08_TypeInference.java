@@ -12,7 +12,7 @@ public class _08_TypeInference {
 		System.out.println(j);
 		System.out.println(str);
 		
-		str = "test";
+		str = "_01_reader.txt";
 		System.out.println(str);
 		*/
 	}
