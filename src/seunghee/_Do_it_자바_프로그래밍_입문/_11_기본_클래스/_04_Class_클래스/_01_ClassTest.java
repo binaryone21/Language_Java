@@ -1,4 +1,6 @@
-package seunghee.study._Do_It_자바_프로그래밍_입문._11_기본_클래스._04_Class_클래스;
+package seunghee._Do_it_자바_프로그래밍_입문._11_기본_클래스._04_Class_클래스;
+
+import seunghee._Do_it_자바_프로그래밍_입문._05_클래스와_객체_1._02_클래스_살펴보기._01_Person;
 
 public class _01_ClassTest {
     public static void main(String[] args) throws ClassNotFoundException {
