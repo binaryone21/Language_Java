@@ -9,7 +9,6 @@ public class _30_가운데_글자_가져오기 {
         // 입력
         print(solution("abcde"));
         print(solution("qwer"));
-        // print(solution("1D2S#10S"));
     }
 
     // 연산

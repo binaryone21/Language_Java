@@ -22,7 +22,7 @@ package seunghee.coding.programmers.level1;
  * 스타상(*), 아차상(#)은 점수마다 둘 중 하나만 존재할 수 있으며, 존재하지 않을 수도 있다.
  * 0~10의 정수와 문자 S, D, T, *, #로 구성된 문자열이 입력될 시 총점수를 반환하는 함수를 작성하라.
  */
-public class _29_1차_다트_게임 {
+public class _29_x_1차_다트_게임 {
 	public static void main(String[] args) {
 
 		// 입력
