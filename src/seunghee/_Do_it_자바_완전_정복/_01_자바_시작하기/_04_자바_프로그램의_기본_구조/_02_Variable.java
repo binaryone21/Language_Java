@@ -1,6 +1,6 @@
 package seunghee._Do_it_자바_완전_정복._01_자바_시작하기._04_자바_프로그램의_기본_구조;
 
-public class _02_variable {
+public class _02_Variable {
     public static void main(String[] args) {
         int a = 3;
         String b = "화면";
