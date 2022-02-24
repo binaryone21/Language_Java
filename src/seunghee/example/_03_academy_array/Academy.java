@@ -1,4 +1,4 @@
-package seunghee.example._03_academy;
+package seunghee.example._03_academy_array;
 
 import java.util.Scanner;
 

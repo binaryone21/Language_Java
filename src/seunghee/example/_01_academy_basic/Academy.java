@@ -1,4 +1,4 @@
-package seunghee.example._01_academy;
+package seunghee.example._01_academy_basic;
 
 public class Academy {
     public static void main(String[] args) {
