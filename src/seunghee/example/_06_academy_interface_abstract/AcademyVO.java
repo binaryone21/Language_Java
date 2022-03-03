@@ -1,4 +1,4 @@
-package seunghee.example._06_academy;
+package seunghee.example._06_academy_interface_abstract;
 
 public class AcademyVO {
     private String name;

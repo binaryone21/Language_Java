@@ -1,4 +1,4 @@
-package seunghee.study._Do_It_자바_프로그래밍_입문._14_예외_처리._02_예외_처리하기;
+package seunghee._Do_it_자바_프로그래밍_입문._14_예외_처리._02_예외_처리하기;
 
 public class _01_ArrayExceptionHandling {
     public static void main(String[] args) {
