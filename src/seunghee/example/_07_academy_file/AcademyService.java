@@ -12,7 +12,7 @@ public class AcademyService extends AcademyAbstract {
     Scanner sc = new Scanner(System.in);
     String fmtList = "이름 : %s, 국어 : %d, 영어 : %d, 수학 : %d\n";
     String fmtView = "이름 : %s, 국어 : %d, 영어 : %d, 수학 : %d, 총점 : %d, 평균 : %.1f, 학점 : %c\n";
-    String path = "src/seunghee/example/academy.txt";
+    String path = "src/seunghee/example/academy.txt.txt";
 
     /* 학생정보 데이터 불러오기 */
     public void readAcademy() {
@@ -40,7 +40,7 @@ public class AcademyService extends AcademyAbstract {
             }
         }
     }
-    
+
     /* 학생정보 데이터 저장하기 */
     public void writeAcademy() {
         FileWriter fw = null;
@@ -73,14 +73,14 @@ public class AcademyService extends AcademyAbstract {
     public void displayMenu() {
         StringBuilder sb = new StringBuilder();
         sb.append("----------------------\n")
-            .append(" 1. 학생 성적 입력\n")
-            .append(" 2. 학생 성적 조회\n")
-            .append(" 3. 학생 성적 상제 조회\n")
-            .append(" 4. 학생 성적 수정\n")
-            .append(" 5. 학생 정보 삭제\n")
-            .append(" 0. 프로그램 종료\n")
-            .append("----------------------\n")
-            .append("원하시는 작업은 ? ");
+                .append(" 1. 학생 성적 입력\n")
+                .append(" 2. 학생 성적 조회\n")
+                .append(" 3. 학생 성적 상제 조회\n")
+                .append(" 4. 학생 성적 수정\n")
+                .append(" 5. 학생 정보 삭제\n")
+                .append(" 0. 프로그램 종료\n")
+                .append("----------------------\n")
+                .append("원하시는 작업은 ? ");
         System.out.print(sb);
     }
 
@@ -153,7 +153,7 @@ public class AcademyService extends AcademyAbstract {
         System.out.printf(fmtView, person.getName(), person.getKor(), person.getEng(),
                 person.getMat(), person.getSum(), person.getAvg(), person.getGrd());
     }
-    
+
     /* 학생정보 수정 */
     public void updateAcademy() {
         System.out.print("수정할 학생이름을 입력해 주세요 : ");

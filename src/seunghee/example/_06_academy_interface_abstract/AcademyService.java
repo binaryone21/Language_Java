@@ -5,7 +5,6 @@ import java.util.Iterator;
 import java.util.Scanner;
 
 public class AcademyService extends AcademyAbstract {
-
     // 멤버변수 선언
     ArrayList<AcademyVO> persons = new ArrayList<>();
     Scanner sc = new Scanner(System.in);
@@ -27,14 +26,14 @@ public class AcademyService extends AcademyAbstract {
     public void displayMenu() {
         StringBuilder sb = new StringBuilder();
         sb.append("----------------------\n")
-            .append(" 1. 학생 성적 입력\n")
-            .append(" 2. 학생 성적 조회\n")
-            .append(" 3. 학생 성적 상제 조회\n")
-            .append(" 4. 학생 성적 수정\n")
-            .append(" 5. 학생 정보 삭제\n")
-            .append(" 0. 프로그램 종료\n")
-            .append("----------------------\n")
-            .append("원하시는 작업은 ? ");
+                .append(" 1. 학생 성적 입력\n")
+                .append(" 2. 학생 성적 조회\n")
+                .append(" 3. 학생 성적 상제 조회\n")
+                .append(" 4. 학생 성적 수정\n")
+                .append(" 5. 학생 정보 삭제\n")
+                .append(" 0. 프로그램 종료\n")
+                .append("----------------------\n")
+                .append("원하시는 작업은 ? ");
         System.out.print(sb);
     }
 
@@ -107,7 +106,7 @@ public class AcademyService extends AcademyAbstract {
         System.out.printf(fmtView, person.getName(), person.getKor(), person.getEng(),
                 person.getMat(), person.getSum(), person.getAvg(), person.getGrd());
     }
-    
+
     /* 학생정보 수정 */
     public void updateAcademy() {
         System.out.print("수정할 학생이름을 입력해 주세요 : ");

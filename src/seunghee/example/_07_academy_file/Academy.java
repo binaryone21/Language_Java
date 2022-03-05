@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Academy {
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner (System.in);
+        Scanner sc = new Scanner(System.in);
         AcademyService srv = new AcademyService();
         srv.readAcademy();
 
@@ -20,8 +20,7 @@ public class Academy {
                 case "3" : srv.selectAcademy(); break;
                 case "4" : srv.updateAcademy(); break;
                 case "5" : srv.deleteAcademy(); break;
-                case "0" : System.out.println("프로그램을 종료합니다.");
-                            srv.writeAcademy(); break;
+                case "0" : System.out.println("프로그램을 종료합니다."); break;
                 default : System.out.println("번호를 다시 확인해주세요."); break;
             }
         }
