@@ -15,4 +15,7 @@ public class _02_GenericPrinter<T> extends _02_Material {
     public String toString() {
         return material.toString();
     }
+
+    @Override
+    public void doPrinting() { }
 }
