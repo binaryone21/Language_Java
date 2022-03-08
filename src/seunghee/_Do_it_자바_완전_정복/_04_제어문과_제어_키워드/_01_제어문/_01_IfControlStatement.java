@@ -1,6 +1,6 @@
 package seunghee._Do_it_자바_완전_정복._04_제어문과_제어_키워드._01_제어문;
 
-public class _01_IfControlStatement {
+public class _01_IfCOntrolStatement {
     public static void main(String[] args) {
         // 유형 1. if
         int value1 = 5;
