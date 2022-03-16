@@ -1,6 +1,4 @@
 package seunghee.coding.programmers.level1;
-
-import java.util.HashSet;
 /*
  * 점심시간에 도둑이 들어, 일부 학생이 체육복을 도난당했습니다.
  * 다행히 여벌 체육복이 있는 학생이 이들에게 체육복을 빌려주려 합니다.
@@ -13,7 +11,6 @@ import java.util.HashSet;
  * 전체 학생의 수 n, 체육복을 도난당한 학생들의 번호가 담긴 배열 lost,
  * 여벌의 체육복을 가져온 학생들의 번호가 담긴 배열 reserve가 매개변수로 주어질 때,
  * 체육수업을 들을 수 있는 학생의 최댓값을 return 하도록 solution 함수를 작성해주세요.
- *
  */
 public class _42_체육복 {
     public static void main(String[] args) {
@@ -25,12 +22,27 @@ public class _42_체육복 {
 
     // 연산
     public static int solution(int num, int[] lost, int[] reserve) {
-        HashSet set = new HashSet<>();
-        for(int i=0; i<nums.length; i++) {
-            set.add(nums[i]);
+        int[] nums = new int[num];
+
+        for(int i : lost) { nums[i-1]--; }
+        for(int i : reserve) { nums[i-1]++; }
+
+        for(int i=0; i<num-1; i++) {
+            if(nums[i]==1 && nums[i+1]==-1) {
+                nums[i]--;
+                nums[i+1]++;
+            }
+            if(nums[i+1]==1 && nums[i]==-1) {
+                nums[i+1]--;
+                nums[i]++;
+            }
+        }
+        int count = 0;
+        for(int i : nums) {
+            if(i != -1) { count++; }
         }
 
-        return Math.min(set.size(), nums.length/2);
+        return count;
     }
 
     // 출력
