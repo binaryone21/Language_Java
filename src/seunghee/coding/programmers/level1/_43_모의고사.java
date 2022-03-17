@@ -69,7 +69,8 @@ public class _43_모의고사 {
     // 출력
     public static void print(int[] answer) {
         for(int i=0; i<answer.length; i++) {
-            System.out.println(answer[i]);
+            System.out.print(answer[i]);
         }
+        System.out.println();
     }
 }
