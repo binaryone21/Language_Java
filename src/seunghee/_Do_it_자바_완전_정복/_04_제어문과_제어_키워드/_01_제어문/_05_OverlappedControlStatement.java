@@ -20,6 +20,27 @@ public class _05_OverlappedControlStatement {
         int value3 = 2;
         switch(value3) {
             case 1 :
+                for(int k=0; k<10; k++) {
+                    System.out.print(k + " ");
+                }
+                break;
+            case 2:
+                for(int k=10; k>0; k--) {
+                    System.out.print(k + " ");
+                }
+                break;
+        }
+        System.out.println();
+        System.out.println();
+
+        // for-for-if 중복
+        for(int i=0; i<3; i++) {
+            for(int j=0; j<5; j++) {
+                System.out.println(i + " " + j);
+                if(i == j) {
+                    System.out.println("i = j");
+                }
+            }
         }
     }
 }
