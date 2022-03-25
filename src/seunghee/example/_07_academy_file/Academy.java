@@ -20,7 +20,8 @@ public class Academy {
                 case "3" : srv.selectAcademy(); break;
                 case "4" : srv.updateAcademy(); break;
                 case "5" : srv.deleteAcademy(); break;
-                case "0" : System.out.println("프로그램을 종료합니다."); break;
+                case "0" : System.out.println("프로그램을 종료합니다.");
+                            srv.writeAcademy(); break;
                 default : System.out.println("번호를 다시 확인해주세요."); break;
             }
         }

@@ -12,7 +12,7 @@ public class AcademyService extends AcademyAbstract {
     Scanner sc = new Scanner(System.in);
     String fmtList = "이름 : %s, 국어 : %d, 영어 : %d, 수학 : %d\n";
     String fmtView = "이름 : %s, 국어 : %d, 영어 : %d, 수학 : %d, 총점 : %d, 평균 : %.1f, 학점 : %c\n";
-    String path = "src/seunghee/example/academy.txt.txt";
+    String path = "src/seunghee/example/academy.txt";
 
     /* 학생정보 데이터 불러오기 */
     public void readAcademy() {
