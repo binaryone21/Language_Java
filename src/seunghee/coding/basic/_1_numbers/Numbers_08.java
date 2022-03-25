@@ -1,6 +1,6 @@
 package seunghee.coding.basic._1_numbers;
 
-public class _08 {
+public class Numbers_08 {
     public static void main(String[] args) {
 
     	// Sum = 1 + 3 + 6 + 10 + ... + NUM

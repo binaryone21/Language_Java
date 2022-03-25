@@ -1,17 +1,17 @@
 package seunghee.coding.basic._1_numbers;
 
-public class _02 {
+public class Numbers_01 {
     public static void main(String[] args) {
-
-    	// Sum = 1 + 2 + 3 + 4 + ... + NUM
     	
+    	// Sum = 7 + 7 + 7 + ... + 7
+
         int num = 10;
         int sum = 0;
 
         for(int i=1; i<=num; i++) {
-            sum += i;
+            sum += 7;
         }
-
-        System.out.println("1부터 "+num+"까지의 합은 "+sum+"입니다.");
+        
+        System.out.println("7을 "+num+"번 더한 값은 "+sum+"입니다.");
     }
 }
