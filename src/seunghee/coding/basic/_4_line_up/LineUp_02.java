@@ -2,7 +2,7 @@ package seunghee.coding.basic._4_line_up;
 
 import java.util.Scanner;
 
-public class _02 {
+public class LineUp_02 {
 	public static void main(String[] args) {
 
 		// 선택 정렬 2

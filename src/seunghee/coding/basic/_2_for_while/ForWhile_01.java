@@ -1,6 +1,6 @@
 package seunghee.coding.basic._2_for_while;
 
-public class _01 {
+public class ForWhile_01 {
 	public static void main(String[] args) {
         
 		// While 로 구현한 구구단

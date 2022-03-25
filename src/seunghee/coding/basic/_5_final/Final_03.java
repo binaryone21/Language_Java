@@ -2,7 +2,7 @@ package seunghee.coding.basic._5_final;
 
 import java.util.Scanner;
 
-public class _03 {
+public class Final_03 {
 	public static void main(String[] args) {
 		
 		// 최종 정리

@@ -2,7 +2,7 @@ package seunghee.coding.basic._5_final;
 
 import java.util.Scanner;
 
-public class _01 {
+public class Final_01 {
 	public static void main(String[] args) {
 
 		// 이분법

@@ -1,6 +1,6 @@
 package seunghee.coding.basic._2_for_while;
 
-public class _04 {
+public class ForWhile_04 {
     public static void main(String[] args) {
 
     	// 정사각형 출력

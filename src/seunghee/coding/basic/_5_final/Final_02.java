@@ -2,7 +2,7 @@ package seunghee.coding.basic._5_final;
 
 import java.util.Scanner;
 
-public class _02 {
+public class Final_02 {
 	public static void main(String[] args) {
 		
 		// 물건 구매

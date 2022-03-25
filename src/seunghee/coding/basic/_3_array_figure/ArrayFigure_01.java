@@ -2,7 +2,7 @@ package seunghee.coding.basic._3_array_figure;
 
 import java.util.Scanner;
 
-public class _01 {
+public class ArrayFigure_01 {
     public static void main(String[] args) {
 
     	// 직각 삼각형

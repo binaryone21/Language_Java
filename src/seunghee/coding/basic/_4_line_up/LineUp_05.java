@@ -2,7 +2,7 @@ package seunghee.coding.basic._4_line_up;
 
 import java.util.Scanner;
 
-public class _05 {
+public class LineUp_05 {
 	public static void main(String[] args) {
 		
 		// 삽입 정렬

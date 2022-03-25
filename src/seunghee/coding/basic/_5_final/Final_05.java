@@ -2,7 +2,7 @@ package seunghee.coding.basic._5_final;
 
 import java.util.Scanner;
 
-public class _05 {
+public class Final_05 {
 	public static void main(String[] args) {
 		
 		// 로또 당첨 번호 직접 입력

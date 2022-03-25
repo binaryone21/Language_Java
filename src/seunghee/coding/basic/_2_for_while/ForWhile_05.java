@@ -1,6 +1,6 @@
 package seunghee.coding.basic._2_for_while;
 
-public class _05 {
+public class ForWhile_05 {
     public static void main(String[] args) {
 
         int i = 0;

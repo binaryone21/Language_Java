@@ -2,7 +2,7 @@ package seunghee.coding.basic._4_line_up;
 
 import java.util.Scanner;
 
-public class _04 {
+public class LineUp_04 {
 	public static void main(String[] args) {
 
 		// 버블 정렬

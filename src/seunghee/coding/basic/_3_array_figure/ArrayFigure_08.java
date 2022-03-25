@@ -2,7 +2,7 @@ package seunghee.coding.basic._3_array_figure;
 
 import java.util.Scanner;
 
-public class _08 {
+public class ArrayFigure_08 {
 	public static void main(String[] args) {
 
 		// 마방진

@@ -2,11 +2,11 @@ package seunghee.coding.basic._3_array_figure;
 
 import java.util.Scanner;
 
-public class _07 {
+public class ArrayFigure_06 {
 	public static void main(String[] args) {
-
-		// 달팽이 case 1
 		
+		// 달팽이 case 2
+
         @SuppressWarnings("resource")
 		Scanner scanner = new Scanner (System.in);
 
@@ -24,24 +24,29 @@ public class _07 {
 
             int i = 0, j = 0;
             int sw = 1;
+            int sw2 = 0;
 
-            // 입력 부분
+            // 입력 부분			
             while (count < order) {
                 count = (direct / 4);
 
                 for (int times = count; times < order2 - 1 - count; times++) {
                     num++;
                     Num[i][j] = num;
-                    j += sw;
+                    if (direct % 2 == 0) {
+                        j += sw;
+                    } else {
+                        i += sw;
+                    }
                 }
-                System.out.println("");
                 direct++;
-                sw = j;
-                j = (order2 - 1) - i;
-                i = sw;
-
+                
+                // 변환 부분				
                 if (direct % 2 == 0) {
                     sw = -sw;
+                    sw2 = j;
+                    j = i;
+                    i = sw2;
                 }
 
                 if (direct % 4 == 0) {
@@ -50,7 +55,7 @@ public class _07 {
                 }
             }
 
-            // 출력부분
+            // 출력 부분
             for (i = 0; i < order2; i++) {
                 for (j = 0; j < order2; j++) {
                     if (Num[i][j] == 0) {

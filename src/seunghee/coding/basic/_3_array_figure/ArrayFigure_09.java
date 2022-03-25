@@ -2,10 +2,10 @@ package seunghee.coding.basic._3_array_figure;
 
 import java.util.Scanner;
 
-public class _10 {
+public class ArrayFigure_09 {
 	public static void main(String[] args) {
 
-		// 대각선 2
+		// 대각선
 		
         while (true) {
             @SuppressWarnings("resource")
@@ -18,7 +18,7 @@ public class _10 {
             int num = 0;
             int i = 0;
             int j = 0;
-
+            
             // 입력 부분
             for (int times1 = 0; times1 < order; times1++) {
                 i = times1;
@@ -31,7 +31,7 @@ public class _10 {
                 }
             }
             
-            // 입력 부분
+            // 나머지 입력 부분
             for (int times1 = 1; times1 < order; times1++) {
                 i = (order - 1);
                 j = times1;
@@ -43,20 +43,18 @@ public class _10 {
                 }
             }
             
-            // 출력 부분
-            for (int m = 0; m < order; m++)
-            {
-                for (int n = 0; n <order; n++)
-                {
-                    if (Num[m][n] == 0)
-                    { System.out.print("   "); }
-                    else
-                    { System.out.printf("%2d ",Num[m][n]); }
+        	// 출력부분
+            for (int m = 0; m < order; m++) {
+                for (int n = 0; n <order; n++) {
+                    if (Num[m][n] == 0) {
+                    	System.out.print("   ");
+                    } else {
+                    	System.out.printf("%2d ",Num[m][n]);
+                    }
                 }
                 System.out.println("");
             }
             System.out.println("");
         }
-
     }
 }

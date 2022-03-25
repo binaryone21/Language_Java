@@ -2,7 +2,7 @@ package seunghee.coding.basic._2_for_while;
 
 import java.util.Scanner;
 
-public class _03 {
+public class ForWhile_03 {
     public static void main(String[] args) {
     	
     	// 윤년을 구하는 공식

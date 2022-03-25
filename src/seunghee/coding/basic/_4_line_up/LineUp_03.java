@@ -2,7 +2,7 @@ package seunghee.coding.basic._4_line_up;
 
 import java.util.Scanner;
 
-public class _03 {
+public class LineUp_03 {
 	public static void main(String[] args) {
 
 		// 순위 석차

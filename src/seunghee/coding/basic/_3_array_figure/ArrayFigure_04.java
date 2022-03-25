@@ -2,7 +2,7 @@ package seunghee.coding.basic._3_array_figure;
 
 import java.util.Scanner;
 
-public class _04 {
+public class ArrayFigure_04 {
 	public static void main(String[] args) {
 
 		// ㄹ 모양

@@ -1,6 +1,6 @@
 package seunghee.coding.basic._2_for_while;
 
-public class _02 {
+public class ForWhile_02 {
     public static void main(String[] args) {
     	
     	// 1 ~ 9, 9 ~ 1 로 출력되는 구구단 
