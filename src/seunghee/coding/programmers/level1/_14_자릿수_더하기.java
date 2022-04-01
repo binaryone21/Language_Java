@@ -5,9 +5,9 @@ package seunghee.coding.programmers.level1;
  * 예를들어 N = 123이면 1 + 2 + 3 = 6을 return 하면 됩니다.
  */
 public class _14_자릿수_더하기 {
+
+	// 입력
 	public static void main(String[] args) {
-		
-		// 입력
 		print(solution(123));
 		print(solution(987));
 	}

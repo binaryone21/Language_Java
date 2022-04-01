@@ -7,9 +7,9 @@ package seunghee.coding.programmers.level1;
  * 대문자는 소문자보다 작은 것으로 간주합니다.
  */
 public class _23_문자열_내림차순으로_배치하기 {
+
+	// 입력
 	public static void main(String[] args) {
-		
-		// 입력
 		print(solution("Zbcdefg"));
 	}
 	

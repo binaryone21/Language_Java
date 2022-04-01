@@ -23,9 +23,9 @@ package seunghee.coding.programmers.level1;
  * 0~10의 정수와 문자 S, D, T, *, #로 구성된 문자열이 입력될 시 총점수를 반환하는 함수를 작성하라.
  */
 public class _29_x_1차_다트_게임 {
-	public static void main(String[] args) {
 
-		// 입력
+	// 입력
+	public static void main(String[] args) {
 		print(solution("1S2D*3T"));
 		// print(solution("1D2S#10S"));
 	}

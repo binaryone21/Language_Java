@@ -4,10 +4,12 @@ package seunghee.coding.programmers.level1;
  * x부터 시작해 x씩 증가하는 숫자를 n개 지니는 리스트를 리턴해야 합니다.
  * 다음 제한 조건을 보고, 조건을 만족하는 함수, solution을 완성해주세요.
  */
+import java.util.Arrays;
+
 public class _02_x만큼_간격이_있는_n개의_숫자 {
+
+	// 입력
 	public static void main(String[] args) {
-		
-		// 입력
 		print(solution(2, 5));
 		print(solution(4, 3));
 		print(solution(-4, 2));
@@ -26,17 +28,6 @@ public class _02_x만큼_간격이_있는_n개의_숫자 {
 	
 	// 출력
 	public static void print(long[] answer) {
-		StringBuilder sb = new StringBuilder();
-		
-		sb.append("[");
-		for(int i=0; i<answer.length; i++) {
-			sb.append(answer[i]);
-			if(i < answer.length-1 ) {
-				sb.append(", ");
-			}
-		}
-		sb.append("]");
-		
-		System.out.println(sb.toString());
+		System.out.println(Arrays.toString(answer));
 	}
 }

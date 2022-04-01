@@ -5,15 +5,16 @@ package seunghee.coding.programmers.level1;
  * 예를들어 n이 118372면 873211을 리턴하면 됩니다.
  */
 public class _12_정수_내림차순으로_배치하기 {
+
+	// 입력
 	public static void main(String[] args) {
-		
-		// 입력
 		print(solution(118372));
 	}
 	
 	// 연산
 	public static long solution(long num) {
 		long[] arr = new long[(int) (Math.log10(num)+1)];
+
 		for(int i=0; i<arr.length; i++) {
 			arr[i] = num%10;
 			num /= 10;

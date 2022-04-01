@@ -6,9 +6,9 @@ package seunghee.coding.programmers.level1;
  * (1은 소수가 아닙니다.)
  */
 public class _20_소수_찾기 {
+
+	// 입력
 	public static void main(String[] args) {
-		
-		// 입력
 		print(solution(10));
 		print(solution(5));
 	}

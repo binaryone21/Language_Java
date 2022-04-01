@@ -6,10 +6,11 @@ package seunghee.coding.programmers.level1;
  * 예를들어 arr이 [4,3,2,1]인 경우는 [4,3,2]를 리턴 하고,
  * [10]면 [-1]을 리턴 합니다.
  */
+import java.util.Arrays;
+
 public class _10_제일_작은_수_제거하기 {
+	// 입력
 	public static void main(String[] args) {
-		
-		// 입력
 		print(solution(new int[] {4, 3, 2, 1}));
 		print(solution(new int[] {10}));
 	}
@@ -41,15 +42,6 @@ public class _10_제일_작은_수_제거하기 {
 	
 	// 출력
 	public static void print(int[] answer) {
-		StringBuilder sb = new  StringBuilder();
-		sb.append("[");
-		for(int i=0; i<answer.length; i++) {
-			sb.append(answer[i]);
-			if(i < answer.length-1) {
-				sb.append(", ");
-			}
-		}
-		sb.append("]");
-		System.out.println(sb.toString());
+		System.out.println(Arrays.toString(answer));
 	}
 }

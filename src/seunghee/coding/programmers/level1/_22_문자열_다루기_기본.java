@@ -7,9 +7,9 @@ package seunghee.coding.programmers.level1;
  * "1234"라면 True를 리턴하면 됩니다.
  */
 public class _22_문자열_다루기_기본 {
+
+	// 입력
 	public static void main(String[] args) {
-		
-		// 입력
 		print(solution("a234"));
 		print(solution("1234"));
 	}

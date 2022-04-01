@@ -7,9 +7,9 @@ package seunghee.coding.programmers.level1;
  * 3 + 4 + 5 = 12이므로 12를 리턴합니다.
  */
 public class _26_두_정수_사이의_합 {
+
+	// 입력
 	public static void main(String[] args) {
-		
-		// 입력
 		print(solution(3, 5));
 		print(solution(3, 3));
 		print(solution(5, 3));

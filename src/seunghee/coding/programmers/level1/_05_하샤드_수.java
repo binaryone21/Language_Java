@@ -7,9 +7,9 @@ package seunghee.coding.programmers.level1;
  * solution을 완성해주세요.
  */
 public class _05_하샤드_수 {
-	public static void main(String[] args) {
 
-		// 입력
+	// 입력
+	public static void main(String[] args) {
 		print(solution(10));
 		print(solution(12));
 		print(solution(11));

@@ -8,9 +8,9 @@ package seunghee.coding.programmers.level1;
  * solution을 완성해주세요.
  */
 public class _04_핸드폰_번호_가리기 {
+
+	// 입력
 	public static void main(String[] args) {
-		
-		// 입력
 		print(solution("01033334444"));
 		print(solution("0277778888"));
 	}
@@ -19,6 +19,7 @@ public class _04_핸드폰_번호_가리기 {
 	public static String solution(String phone_number) {
 		String str1 = phone_number.substring(0, phone_number.length()-4);
 		String str2 = phone_number.substring(phone_number.length()-4, phone_number.length());
+
 		str1 = str1.replaceAll("[0-9]", "*");
 		
 		String answer = str1 + str2;

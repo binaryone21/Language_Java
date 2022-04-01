@@ -6,12 +6,13 @@ package seunghee.coding.programmers.level1;
  * n이 1이면 각 단어의 인덱스 1의 문자 "u", "e", "a"로 strings를 정렬합니다.
  */
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 
 public class _25_문자열_내_마음대로_정렬하기 {
+
+	// 입력
 	public static void main(String[] args) {
-		
-		// 입력
 		print(solution(new String[] {"sun", "bed", "car"}, 1));
 		print(solution(new String[] {"abce", "abcd", "cdx"}, 2));
 	}
@@ -35,17 +36,6 @@ public class _25_문자열_내_마음대로_정렬하기 {
 	
 	// 출력
 	public static void print(String[] answer) {
-		StringBuilder sb = new StringBuilder();
-		sb.append("[");
-		for(int i=0; i<answer.length; i++) {
-			sb.append("\"");
-			sb.append(answer[i]);
-			sb.append("\"");
-			if(i != answer.length-1) {
-				sb.append(", ");
-			}
-		}
-		sb.append("]");
-		System.out.println(sb.toString());
+		System.out.println(Arrays.toString(answer));
 	}
 }

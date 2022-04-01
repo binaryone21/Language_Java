@@ -7,9 +7,9 @@ package seunghee.coding.programmers.level1;
  * 3이라면 "수박수"를 리턴하면 됩니다.
  */
 public class _19_수박수박수박수박수 {
+
+	// 입력
 	public static void main(String[] args) {
-		
-		// 입력
 		print(solution(3));
 		print(solution(4));
 	}

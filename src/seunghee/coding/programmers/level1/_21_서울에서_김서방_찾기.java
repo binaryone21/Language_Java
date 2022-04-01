@@ -7,9 +7,9 @@ package seunghee.coding.programmers.level1;
  * 잘못된 값이 입력되는 경우는 없습니다.
  */
 public class _21_서울에서_김서방_찾기 {
+
+	// 입력
 	public static void main(String[] args) {
-		
-		// 입력
 		print(solution(new String[] {"Jane", "Kim"}));
 	}
 		

@@ -10,9 +10,9 @@ package seunghee.coding.programmers.level1;
  * 2. 결과로 나온 수에 같은 작업을 1이 될 때까지 반복합니다.
  * */
 public class _07_콜라츠_추측 {
+
+	// 입력
 	public static void main(String[] args) {
-		
-		// 입력
 		print(solution(6));
 		print(solution(16));
 		print(solution(626331));

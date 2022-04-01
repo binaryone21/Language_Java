@@ -4,9 +4,9 @@ package seunghee.coding.programmers.level1;
  * solution을 완성해주세요.
  */
 public class _16_약수의_합 {
+
+	// 입력
 	public static void main(String[] args) {
-		
-		// 입력
 		print(solution(12));
 		print(solution(5));
 	}

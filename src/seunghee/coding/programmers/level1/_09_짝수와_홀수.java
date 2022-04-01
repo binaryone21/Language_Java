@@ -4,9 +4,8 @@ package seunghee.coding.programmers.level1;
  * solution을 완성해주세요.
  */
 public class _09_짝수와_홀수 {
+	// 입력
 	public static void main(String[] args) {
-		
-		// 입력
 		print(solution(3));
 		print(solution(4));
 	}

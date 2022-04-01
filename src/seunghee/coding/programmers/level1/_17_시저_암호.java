@@ -8,9 +8,9 @@ package seunghee.coding.programmers.level1;
  * solution을 완성해 보세요.
  */
 public class _17_시저_암호 {
+
+	// 입력
 	public static void main(String[] args) {
-		
-		// 입력
 		print(solution("AB", 1));
 		print(solution("z", 1));
 		print(solution("a B z", 4));

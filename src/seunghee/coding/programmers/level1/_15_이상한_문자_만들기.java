@@ -7,9 +7,9 @@ package seunghee.coding.programmers.level1;
  * solution을 완성하세요.
  */
 public class _15_이상한_문자_만들기 {
+
+	// 입력
 	public static void main(String[] args) {
-		
-		// 입력
 		print(solution("try hello world"));
 	}
 	

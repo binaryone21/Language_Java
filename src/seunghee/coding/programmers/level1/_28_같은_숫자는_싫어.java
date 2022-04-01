@@ -9,11 +9,12 @@ package seunghee.coding.programmers.level1;
  * 남은 수들을 return 하는 solution 함수를 완성해 주세요.
  */
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class _28_같은_숫자는_싫어 {
+
+	// 입력
 	public static void main(String[] args) {
-		
-		// 입력
 		print(solution(new int[] {1, 1, 3, 3, 0, 1, 1}));
 		print(solution(new int[] {4, 4, 4, 3, 3}));
 	}
@@ -34,17 +35,6 @@ public class _28_같은_숫자는_싫어 {
 	
 	// 출력
 	public static void print(int[] answer) {
-		StringBuilder sb = new StringBuilder();
-		
-		sb.append("[");
-		for(int i=0; i<answer.length; i++) {
-			sb.append(answer[i]);
-			if(i != answer.length-1) {
-				sb.append(", ");
-			}
-		}
-		sb.append("]");
-		
-		System.out.println(sb.toString());
+		System.out.println(Arrays.toString(answer));
 	}
 }

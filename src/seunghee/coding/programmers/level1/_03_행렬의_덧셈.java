@@ -6,10 +6,12 @@ package seunghee.coding.programmers.level1;
  * 행렬 덧셈의 결과를 반환하는 함수,
  * solution을 완성해주세요.
  */
+import java.util.Arrays;
+
 public class _03_행렬의_덧셈 {
+
+	// 입력
 	public static void main(String[] args) {
-		
-		// 입력
 		print(solution(new int[][] {{1,2},{2,3}}, new int[][] {{3,4},{5,6}}));
 		print(solution(new int[][] {{1},{2}}, new int[][] {{3},{4}}));
 	}
@@ -29,24 +31,6 @@ public class _03_행렬의_덧셈 {
 	
 	// 출력
 	public static void print(int[][] answer) {
-		StringBuilder sb = new StringBuilder();
-		
-		sb.append("[");
-		for(int i=0; i<answer.length; i++) {
-			sb.append("[");
-			for(int j=0; j<answer[i].length; j++) {
-				sb.append(answer[i][j]);
-				if(j < answer[i].length-1) {
-					sb.append(", ");
-				}
-			}
-			sb.append("]");
-			if(i < answer.length-1) {
-				sb.append(", ");
-			}
-		}
-		sb.append("]");
-		
-		System.out.println(sb.toString());
+		System.out.println(Arrays.deepToString(answer));
 	}
 }

@@ -5,9 +5,9 @@ package seunghee.coding.programmers.level1;
  * n이 양의 정수 x의 제곱이 아니라면 -1을 리턴하는 함수를 완성하세요.
  */
 public class _11_정수_제곱근_판별 {
+
+	// 입력
 	public static void main(String[] args) {
-		
-		// 입력
 		print(solution(121));
 		print(solution(3));
 	}
@@ -22,6 +22,7 @@ public class _11_정수_제곱근_판별 {
 		} else {
 			answer = -1;
 		}
+
 		return answer;
 	}
 	

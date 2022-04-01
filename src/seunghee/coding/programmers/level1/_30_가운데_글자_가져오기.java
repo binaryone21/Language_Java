@@ -4,9 +4,9 @@ package seunghee.coding.programmers.level1;
  * 단어의 길이가 짝수라면 가운데 두글자를 반환하면 됩니다.
  */
 public class _30_가운데_글자_가져오기 {
-    public static void main(String[] args) {
 
-        // 입력
+    // 입력
+    public static void main(String[] args) {
         print(solution("abcde"));
         print(solution("qwer"));
     }

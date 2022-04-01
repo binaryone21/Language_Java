@@ -4,9 +4,9 @@ package seunghee.coding.programmers.level1;
  * solution을 완성해보세요.
  */
 public class _06_평균_구하기 {
+
+	// 입력
 	public static void main(String[] args) {
-		
-		// 입력
 		print(solution(new int[]{1,2,3,4}));
 		print(solution(new int[]{5,5}));
 	}

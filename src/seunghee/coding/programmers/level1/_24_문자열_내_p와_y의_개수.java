@@ -9,9 +9,9 @@ package seunghee.coding.programmers.level1;
  * "Pyy"라면 false를 return합니다.
  */
 public class _24_문자열_내_p와_y의_개수 {
+
+	// 입력
 	public static void main(String[] args) {
-		
-		// 입력
 		print(solution("pPoooyY"));
 		print(solution("Pyy"));
 	}

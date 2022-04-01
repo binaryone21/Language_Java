@@ -4,9 +4,9 @@ package seunghee.coding.programmers.level1;
  * solution을 완성하세요.
  */
 public class _18_문자열을_정수로_바꾸기 {
+
+	// 입력
 	public static void main(String[] args) {
-		
-		// 입력
 		print(solution("1234"));
 	}
 	

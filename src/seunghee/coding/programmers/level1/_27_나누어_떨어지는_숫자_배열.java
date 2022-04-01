@@ -10,8 +10,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class _27_나누어_떨어지는_숫자_배열 {
+
+	// 입력
 	public static void main(String[] args) {
-		// 입력
 		print(solution(new int[] {5, 9, 7, 10}, 5));
 		print(solution(new int[] {2, 36, 1, 3}, 1));
 		print(solution(new int[] {3, 2, 6}, 10));
@@ -36,15 +37,6 @@ public class _27_나누어_떨어지는_숫자_배열 {
 	
 	// 출력
 	public static void print(int[] answer) {
-		StringBuilder sb = new StringBuilder();
-		sb.append("[");
-		for(int i=0; i<answer.length; i++) {
-			sb.append(answer[i]);
-			if(i != answer.length-1) {
-				sb.append(", ");
-			}
-		}
-		sb.append("]");
-		System.out.println(sb.toString());
+		System.out.println(Arrays.toString(answer));
 	}
 }
