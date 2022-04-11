@@ -1,6 +1,6 @@
 package seunghee._Do_it_자바_완전_정복._05_참조_자료형._01_배열;
 
-public class _01_ValueAssignment {
+public class _02_ValueAssignment {
     public static void main(String[] args) {
         // 배열의 값 대입 방법 1
         int[] array1 = new int[3];

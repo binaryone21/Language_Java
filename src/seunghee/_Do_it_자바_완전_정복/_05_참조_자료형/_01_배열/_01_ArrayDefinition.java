@@ -1,6 +1,6 @@
-package seunghee._Do_it_자바_완전_정복._04_제어문과_제어_키워드._02_제어_키워드;
+package seunghee._Do_it_자바_완전_정복._05_참조_자료형._01_배열;
 
-public class _03_ArrayDefinition {
+public class _01_ArrayDefinition {
     public static void main(String[] args) {
         // 배열의 선언 방법 1
         int[] array1 = new int[3];
