@@ -1,4 +1,4 @@
-package seunghee._Do_it_자바_완전_정복._09_자바_제어자_1._01_접근_지정자.pack1;
+package seunghee._Do_it_자바_완전_정복._09_자바_제어자_1._01_접근_지정자._01_pack1;
 
 public class _01_B {
     public void print() {

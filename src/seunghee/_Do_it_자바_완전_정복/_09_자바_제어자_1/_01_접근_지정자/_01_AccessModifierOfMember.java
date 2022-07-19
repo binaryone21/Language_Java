@@ -1,9 +1,9 @@
 package seunghee._Do_it_자바_완전_정복._09_자바_제어자_1._01_접근_지정자;
 
-import seunghee._Do_it_자바_완전_정복._09_자바_제어자_1._01_접근_지정자.pack1._01_A;
-import seunghee._Do_it_자바_완전_정복._09_자바_제어자_1._01_접근_지정자.pack1._01_B;
-import seunghee._Do_it_자바_완전_정복._09_자바_제어자_1._01_접근_지정자.pack2._01_C;
-import seunghee._Do_it_자바_완전_정복._09_자바_제어자_1._01_접근_지정자.pack2._01_D;
+import seunghee._Do_it_자바_완전_정복._09_자바_제어자_1._01_접근_지정자._01_pack1._01_A;
+import seunghee._Do_it_자바_완전_정복._09_자바_제어자_1._01_접근_지정자._01_pack1._01_B;
+import seunghee._Do_it_자바_완전_정복._09_자바_제어자_1._01_접근_지정자._01_pack2._01_C;
+import seunghee._Do_it_자바_완전_정복._09_자바_제어자_1._01_접근_지정자._01_pack2._01_D;
 
 public class _01_AccessModifierOfMember {
     public static void main(String[] args) {
