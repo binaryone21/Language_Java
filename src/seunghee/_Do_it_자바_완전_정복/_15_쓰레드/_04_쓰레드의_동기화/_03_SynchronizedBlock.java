@@ -30,4 +30,24 @@ class _03_PlusThread extends Thread {
 }
 
 public class _03_SynchronizedBlock {
+    public static void main(String[] args) {
+        // 공유 객체 생성
+        _03_MyData myData = new _03_MyData();
+
+        // plusThread 1
+        Thread plusThread1 = new _03_PlusThread(myData);
+        plusThread1.setName("plusThread1");
+        plusThread1.start();
+
+        try {
+            Thread.sleep(1000);
+        } catch(InterruptedException e) {
+
+        }
+
+        // plusThread 2
+        Thread plusThread2 = new _03_PlusThread(myData);
+        plusThread2.setName("plusThread2");
+        plusThread2.start();
+    }
 }
