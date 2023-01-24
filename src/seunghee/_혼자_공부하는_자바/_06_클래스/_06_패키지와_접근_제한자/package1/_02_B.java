@@ -4,5 +4,5 @@ public class _02_B {
 	// 필드
 	_02_A a1 = new _02_A(true);
 	_02_A a2 = new _02_A(1);
-	/* _02_A a3 = new _02_A("문자열"); */
+	/* A a3 = new A("문자열"); */
 }

@@ -17,7 +17,7 @@ public class _03_LinkedListExample {
 			list1.add(0, String.valueOf(i));
 		}
 		endTime = System.nanoTime();
-		System.out.println("ArrayList 걸린시간 : " + (endTime - startTime) + " ns");
+		System.out.println("ArrayVsList 걸린시간 : " + (endTime - startTime) + " ns");
 		
 		startTime = System.nanoTime();
 		for(int i=0; i<10000; i++) {
