@@ -7,7 +7,7 @@ public class ArrayFigure_08 {
 
 		// 마방진
 		
-        @SuppressWarnings("resource")
+
 		Scanner scanner = new Scanner (System.in);
 
         while (true) {

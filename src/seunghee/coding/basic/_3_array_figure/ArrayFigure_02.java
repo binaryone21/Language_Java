@@ -9,7 +9,7 @@ public class ArrayFigure_02 {
     	
         System.out.print("원하는 모래시계의 크기를 입력해 주세요 : ");
 
-        @SuppressWarnings("resource")
+
 		Scanner scanner = new Scanner(System.in);
         int order = scanner.nextInt();
         int order2 = order*2-1;

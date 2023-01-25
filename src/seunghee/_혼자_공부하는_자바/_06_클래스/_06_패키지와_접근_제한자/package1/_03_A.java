@@ -1,6 +1,6 @@
 package seunghee._혼자_공부하는_자바._06_클래스._06_패키지와_접근_제한자.package1;
 
-@SuppressWarnings("unused")
+
 public class _03_A {
 	// 필드
 	public int field1;

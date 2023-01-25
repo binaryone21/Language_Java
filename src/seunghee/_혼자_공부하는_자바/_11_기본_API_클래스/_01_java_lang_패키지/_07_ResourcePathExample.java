@@ -1,6 +1,5 @@
 package seunghee._혼자_공부하는_자바._11_기본_API_클래스._01_java_lang_패키지;
 
-@SuppressWarnings("rawtypes")
 public class _07_ResourcePathExample {
 	public static void main(String[] args) {
 		Class c1 = _02_Key.class;

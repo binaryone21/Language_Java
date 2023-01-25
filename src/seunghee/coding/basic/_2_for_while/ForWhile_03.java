@@ -7,7 +7,7 @@ public class ForWhile_03 {
     	
     	// 윤년을 구하는 공식
 
-        @SuppressWarnings("resource")
+
 		Scanner sc = new Scanner(System.in);
         System.out.print("확인하고 싶은 년도를 구하시오 : ");
         int year = sc.nextInt( );

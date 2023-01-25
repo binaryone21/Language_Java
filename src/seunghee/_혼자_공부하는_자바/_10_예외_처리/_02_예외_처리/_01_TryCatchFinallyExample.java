@@ -1,6 +1,5 @@
 package seunghee._혼자_공부하는_자바._10_예외_처리._02_예외_처리;
 
-@SuppressWarnings({ "rawtypes", "unused" })
 public class _01_TryCatchFinallyExample {
 	public static void main(String[] args) {
 		try {

@@ -7,7 +7,7 @@ public class Final_01 {
 
 		// 이분법
 		
-        @SuppressWarnings("resource")
+
 		Scanner scanner = new Scanner (System.in);
 
         while (true) {

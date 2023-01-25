@@ -8,7 +8,7 @@ public class ArrayFigure_10 {
 		// 대각선 2
 		
         while (true) {
-            @SuppressWarnings("resource")
+
 			Scanner scanner = new Scanner (System.in);
             System.out.print("원하는 도형의 크기를 입력하세요 : ");
             int order = scanner.nextInt();

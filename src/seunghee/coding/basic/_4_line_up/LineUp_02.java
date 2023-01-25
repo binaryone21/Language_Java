@@ -8,7 +8,7 @@ public class LineUp_02 {
 		// 선택 정렬 2
 		
         while(true) {
-            @SuppressWarnings("resource")
+
 			Scanner scanner = new Scanner (System.in);
             System.out.print("정렬하고자 하는 배열의 크기를 입력해 주세요 : ");
             int order = scanner.nextInt();

@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class _01_직사각형_별찍기 {
     public static void main(String[] args) {
-        @SuppressWarnings("resource")
+
 		Scanner sc = new Scanner(System.in);
         
         int a = sc.nextInt();
