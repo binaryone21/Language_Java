@@ -11,7 +11,7 @@ public class _01_ClassTest {
         Class pClass2 = _01_Person.class;
         System.out.println(pClass2.getName());
 
-        Class pClass3 = Class.forName("seunghee.study.Do_It_자바_프로그래밍_입문._11_기본_클래스._04_Class_클래스._01_Person");
+        Class pClass3 = Class.forName("seunghee.study.Do_It_자바_프로그래밍_입문._11_기본_클래스._04_Class_클래스.Person");
         System.out.println(pClass3.getName());
     }
 }
