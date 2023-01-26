@@ -7,7 +7,7 @@ public class Final_03 {
 		
 		// 최종 정리
 		
-        @SuppressWarnings("resource")
+
 		Scanner scanner = new Scanner(System.in);
 
         final int NUM = 10;

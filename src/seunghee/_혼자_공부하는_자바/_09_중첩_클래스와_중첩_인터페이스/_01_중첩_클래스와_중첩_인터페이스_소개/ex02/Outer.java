@@ -1,6 +1,5 @@
 package seunghee._혼자_공부하는_자바._09_중첩_클래스와_중첩_인터페이스._01_중첩_클래스와_중첩_인터페이스_소개.ex02;
 
-@SuppressWarnings("unused")
 public class Outer {
 	// 인스턴스 필드
 	Inner i1 = new Inner();

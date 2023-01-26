@@ -6,7 +6,7 @@ public class Final_05 {
 	public static void main(String[] args) {
 		
 		// 로또 당첨 번호 직접 입력
-		@SuppressWarnings("resource")
+
 		Scanner scanner = new Scanner(System.in);
         int []RealList = new int [6];
 

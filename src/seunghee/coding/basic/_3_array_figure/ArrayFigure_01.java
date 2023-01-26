@@ -7,7 +7,7 @@ public class ArrayFigure_01 {
 
     	// 직각 삼각형
     	
-        @SuppressWarnings("resource")
+
 		Scanner scanner = new Scanner (System.in);
         int order = 1;
 

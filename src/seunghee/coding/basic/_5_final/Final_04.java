@@ -7,7 +7,7 @@ public class Final_04 {
 
 		// 이진수
 		
-		@SuppressWarnings("resource")
+
 		Scanner scanner = new Scanner(System.in);
         System.out.print("2진수로 확인하고 싶은 번호를 입력해 주세요 : ");
         int A = scanner.nextInt();

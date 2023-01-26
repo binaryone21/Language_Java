@@ -9,7 +9,6 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-@SuppressWarnings({"unchecked", "resource"})
 public class _05_ObjectStreamExample {
 	public static void main(String[] args) throws Exception {
 		writeList();

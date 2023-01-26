@@ -1,6 +1,5 @@
 package seunghee._혼자_공부하는_자바._11_기본_API_클래스._01_java_lang_패키지;
 
-@SuppressWarnings("rawtypes")
 public class _06_ClassExample {
 	public static void main(String[] args) throws ClassNotFoundException {
 		// 첫 번째 방법

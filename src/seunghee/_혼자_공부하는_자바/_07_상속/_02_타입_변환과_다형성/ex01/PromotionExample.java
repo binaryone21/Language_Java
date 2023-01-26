@@ -8,7 +8,6 @@ class D extends B {}
 class E extends C {}
 
 public class PromotionExample {
-	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		B b = new B();
 		C c = new C();

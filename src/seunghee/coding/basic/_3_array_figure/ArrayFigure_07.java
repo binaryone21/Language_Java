@@ -7,7 +7,7 @@ public class ArrayFigure_07 {
 
 		// 달팽이 case 1
 		
-        @SuppressWarnings("resource")
+
 		Scanner scanner = new Scanner (System.in);
 
         while (true) {

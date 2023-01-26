@@ -7,7 +7,7 @@ public class ArrayFigure_05 {
 
 		// 달팽이 case 4
 		
-        @SuppressWarnings("resource")
+
 		Scanner scanner = new Scanner (System.in);
         while (true) {
             System.out.print("원하는 달팽이 모양의 크기를 입력해 주세요 : ");

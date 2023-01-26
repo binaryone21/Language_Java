@@ -7,7 +7,7 @@ public class ArrayFigure_04 {
 
 		// ㄹ 모양
 		
-		@SuppressWarnings("resource")
+
 		Scanner scanner = new Scanner (System.in);
         System.out.print("원하는 도형의 크기를 입력하세요 : ");
         int order = scanner.nextInt();

@@ -16,7 +16,7 @@ public class Final_02 {
         System.out.printf("C 물건의 개당가격은 %4d 입니다.\n", C);
         System.out.print("\n");
 
-        @SuppressWarnings("resource")
+
 		Scanner scanner = new Scanner(System.in);
         System.out.print("가지고 있는 돈을 입력해 주세요 : ");
         int Money = scanner.nextInt();

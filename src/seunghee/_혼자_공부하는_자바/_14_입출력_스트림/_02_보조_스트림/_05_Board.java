@@ -3,7 +3,6 @@ package seunghee._혼자_공부하는_자바._14_입출력_스트림._02_보조_
 import java.io.Serializable;
 import java.util.Date;
 
-@SuppressWarnings("serial")
 public class _05_Board implements Serializable {
 	
 	private int bno;
