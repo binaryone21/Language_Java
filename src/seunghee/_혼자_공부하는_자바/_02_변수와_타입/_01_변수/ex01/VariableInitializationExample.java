@@ -1,6 +1,5 @@
 package seunghee._혼자_공부하는_자바._02_변수와_타입._01_변수.ex01;
 
-
 public class VariableInitializationExample {
 	public static void main(String[] args) {
 		// 변수 value 선언

@@ -1,6 +1,6 @@
 package seunghee._혼자_공부하는_자바._03_연산자._02_연산자의_종류.ex01;
 
-public class _01_SignOperationExample {
+public class SignOperationExample {
 	public static void main(String[] args) {
 		int x = -100;
 		int result1 = +x;

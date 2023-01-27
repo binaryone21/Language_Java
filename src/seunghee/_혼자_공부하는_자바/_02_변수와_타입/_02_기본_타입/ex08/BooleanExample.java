@@ -1,6 +1,6 @@
 package seunghee._혼자_공부하는_자바._02_변수와_타입._02_기본_타입.ex08;
 
-public class booleanExample {
+public class BooleanExample {
 	public static void main(String[] args) {
 		boolean stop = true;
 		if(stop) {

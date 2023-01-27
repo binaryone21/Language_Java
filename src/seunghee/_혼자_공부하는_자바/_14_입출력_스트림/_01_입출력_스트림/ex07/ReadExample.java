@@ -9,8 +9,7 @@ public class ReadExample {
 	public static void main(String[] args) throws Exception {
 		Reader rd = new FileReader(FilePath.path + "/ex07/text.txt");
 		StringBuilder sb = new StringBuilder();
-		
-		
+
 		while(true) {
 			int data = rd.read();
 			if(data == -1) { break; }

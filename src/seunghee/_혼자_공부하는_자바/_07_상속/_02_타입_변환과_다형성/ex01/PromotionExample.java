@@ -1,6 +1,5 @@
 package seunghee._혼자_공부하는_자바._07_상속._02_타입_변환과_다형성.ex01;
 
-
 class A {}
 class B extends A {}
 class C extends A {}
@@ -23,8 +22,7 @@ public class PromotionExample {
 		C c1 = e;
 		
 		// B b2 = e;
-		// C c2 = d
-		
+		// C c2 = d;
 	}
 }
 

@@ -2,7 +2,6 @@ package seunghee._혼자_공부하는_자바._02_변수와_타입._04_변수와_
 
 import java.util.Scanner;
 
-
 public class ScannerExample {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
