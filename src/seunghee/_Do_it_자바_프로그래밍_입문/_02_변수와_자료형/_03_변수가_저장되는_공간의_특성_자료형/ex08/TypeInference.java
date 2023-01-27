@@ -2,8 +2,7 @@ package seunghee._Do_it_자바_프로그래밍_입문._02_변수와_자료형._0
 
 public class TypeInference {
 	public static void main(String[] args) {
-		
-		/* JDK 10부터
+
 		var i = 10;
 		var j = 10.0;
 		var str = "hello";
@@ -14,6 +13,5 @@ public class TypeInference {
 		
 		str = "reader.txt";
 		System.out.println(str);
-		*/
 	}
 }
