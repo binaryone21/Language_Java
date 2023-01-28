@@ -1,7 +1,6 @@
 package seunghee._Do_it_자바_프로그래밍_입문._06_클래스와_객체_2._03_static_변수.ex02;
 
 public class StudentTest2 {
-
 	public static void main(String[] args) {
 		Student2 studentLee = new Student2();
 		studentLee.setStudentName("이지원");

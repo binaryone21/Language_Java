@@ -6,7 +6,6 @@ public class PersonTest2 {
 		personKim.name = "김유신";
 		personKim.weight = 85.5F;
 		personKim.height = 180.0F;
-		
 
 		Person2 personLee = new Person2("이순신", 175, 75);
 	}
