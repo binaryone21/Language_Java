@@ -12,7 +12,5 @@ public class OverridingTest {
 		
 		Customer vc = new VIPCustomer(10030, "나몰라", 2000);
 		System.out.println(vc.getCustomerName()+" 님이 지불해야 하는 금액은"+vc.calcPrice(price)+"원입니다.");
-		
-		
 	}
 }

@@ -24,8 +24,7 @@ public interface Calc {
 		myStaticMethod();
 		return total;
 	}
-	
-	
+
 	private void myMethod() {
 		System.out.println("private 메서드입니다.");
 	}
