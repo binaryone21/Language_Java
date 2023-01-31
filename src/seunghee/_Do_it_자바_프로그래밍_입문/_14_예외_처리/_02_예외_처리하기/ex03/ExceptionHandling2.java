@@ -10,7 +10,7 @@ public class ExceptionHandling2 {
         FileInputStream fis = null;
 
         try {
-            fis = new FileInputStream("_03_text.txt");
+            fis = new FileInputStream("text.txt");
         } catch(FileNotFoundException e) {
             System.out.println(e);
             return;

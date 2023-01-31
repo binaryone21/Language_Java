@@ -6,7 +6,7 @@ import java.io.FileNotFoundException;
 public class ExceptionHandling1 {
     public static void main(String[] args) {
         try {
-            FileInputStream fis = new FileInputStream("_02_text.txt");
+            FileInputStream fis = new FileInputStream("text.txt");
         } catch(FileNotFoundException e) {
             System.out.println(e);
         }

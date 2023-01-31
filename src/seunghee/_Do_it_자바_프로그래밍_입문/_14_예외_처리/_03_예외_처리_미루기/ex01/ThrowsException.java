@@ -11,6 +11,6 @@ public class ThrowsException {
 
     public static void main(String[] args) throws Exception {
         ThrowsException test = new ThrowsException();
-        test.loadCLass("_01_text.txt", "java.lang.String");
+        test.loadCLass("text.txt", "java.lang.String");
     }
 }
