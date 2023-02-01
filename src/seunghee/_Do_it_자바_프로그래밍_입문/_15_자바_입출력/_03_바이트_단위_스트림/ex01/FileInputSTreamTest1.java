@@ -8,7 +8,7 @@ public class FileInputSTreamTest1 {
         FileInputStream fis = null;
 
         try {
-            fis = new FileInputStream("input01.txt");
+            fis = new FileInputStream("input.txt");
             System.out.println(fis.read());
             System.out.println(fis.read());
             System.out.println(fis.read());
