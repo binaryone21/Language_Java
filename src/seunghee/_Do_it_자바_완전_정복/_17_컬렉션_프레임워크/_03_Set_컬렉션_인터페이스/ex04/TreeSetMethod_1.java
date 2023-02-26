@@ -4,7 +4,8 @@ import java.util.NavigableSet;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
-public class TreeSetMethod_1 {
+public class
+TreeSetMethod_1 {
 	public static void main(String[] args) {
 		TreeSet<Integer> treeSet = new TreeSet<>();
 		for(int i=50; i>0; i-=2) {

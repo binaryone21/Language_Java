@@ -1,10 +1,11 @@
 package seunghee._Do_it_자바_완전_정복._17_컬렉션_프레임워크._04_Map_컬렉션_인터페이스.ex05;
 
 import java.util.NavigableMap;
+import java.util.NavigableSet;
 import java.util.SortedMap;
 import java.util.TreeMap;
 
-public class asd {
+public class TreeMapMethod_1 {
 	public static void main(String[] args) {
 		TreeMap<Integer, String> treeMap = new TreeMap<Integer, String>();
 		for(int i=20; i>0; i-=2)
@@ -62,5 +63,14 @@ public class asd {
 		// 14. NavigableMap<K, V> subMap(K fromKey, boolean frominclusive, K toKey, boolean toinclusive)
 		navigableMap = treeMap.subMap(6, false, 10, true);
 		System.out.println(navigableMap);
+
+		// 15. NavigableSet<K> descendingKeySet()
+		NavigableSet<Integer> navigableSet = treeMap.descendingKeySet();
+		System.out.println(navigableSet.toString());
+		System.out.println(navigableSet.descendingSet());
+
+		// 16. NavigableMap<K, V> descendingMap()
+		System.out.println(navigableMap.toString());
+		System.out.println(navigableMap.descendingMap());
 	}
 }
