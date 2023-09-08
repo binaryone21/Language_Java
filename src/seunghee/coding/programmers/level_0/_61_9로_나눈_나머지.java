@@ -23,7 +23,7 @@ public class _61_9로_나눈_나머지 {
 		while(num > 9) {
 			num = num/10 + num%10;
 		}
-		return num;
+		return num%9;
 	}
 
 	// 출력
