@@ -1,4 +1,4 @@
-package seunghee.coding.programmers.level_0.ex001_ex020;
+package seunghee.coding.programmers.level_0.ex001_ex010;
 
 /*
  * 머쓱이는 학교에서 키 순으로 줄을 설 때 몇 번째로 서야 하는지 궁금해졌습니다.
